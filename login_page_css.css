@@ -1,0 +1,53 @@
+body{
+	font-family: arial;
+	font-size: 20px;
+	background-color:lightgoldenrodyellow;
+}
+.Page-Container{
+	background-color: white;
+	width: 250px;
+	padding: 30px;
+	border: 1px solid purple;
+	border-radius: 10px;
+	text-align: center;
+}
+h2{
+	color: lightcoral;
+}
+.Form-Login{
+	border: 10px bold blueviolet;
+	padding: 0px;
+	text-align: center;
+}
+label{
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input{
+	width: 100px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border:10px bold blueviolet;
+	border-radius: 10px;
+}
+
+#Login-Button{
+	background-color: blueviolet;
+	color: white;
+	padding: 10px 10px;
+	border: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#Login-Button:hover{
+	color: goldenrod;
+	transition: 0.2s;
+}
+
+#Message{
+	margin-top: 5px;
+	color:black;
+}
